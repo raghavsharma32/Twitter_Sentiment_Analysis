@@ -1,4 +1,4 @@
-#Twitter Sentiment Analysis with LSTM
+#### Twitter Sentiment Analysis with LSTM
 
 This project performs **sentiment analysis** on tweets using a **Bidirectional LSTM** model to classify text into **Positive**, **Neutral**, or **Negative** sentiment.
 
