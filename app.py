@@ -7,8 +7,8 @@ import pickle
 # --- Load model and tokenizer ---
 @st.cache_resource
 def load_model_and_tokenizer():
-    model = load_model('/Users/raghavsharma/Desktop/TwitterSentimentAnalysis/notebooks/best_model.h5')
-    with open('/Users/raghavsharma/Desktop/TwitterSentimentAnalysis/notebooks/tokenizer.pickle', 'rb') as handle:
+    model = load_model('best_model.h5')
+    with open('tokenizer.pickle', 'rb') as handle:
         tokenizer = pickle.load(handle)
     return model, tokenizer
 
